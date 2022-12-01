@@ -8,6 +8,9 @@ import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ContattiComponent } from './contatti/contatti.component';
 import { ChisiamoComponent } from './chisiamo/chisiamo.component';
+import { BannerComponent } from './banner/banner.component';
+import { CardComponent } from './card/card.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +19,10 @@ import { ChisiamoComponent } from './chisiamo/chisiamo.component';
     LoginComponent,
     NavbarComponent,
     ContattiComponent,
-    ChisiamoComponent
+    ChisiamoComponent,
+    BannerComponent,
+    CardComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

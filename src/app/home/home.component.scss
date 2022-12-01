@@ -1,6 +1,6 @@
 .hero{
     background-color: #573b8a;
-    height: 125vh;
+    height: 100vh;
     // background-image: url("");
     background-position: center;
     background-repeat: no-repeat;
@@ -30,10 +30,27 @@
     background-color: #573b8a;
 }
 
-#banner .container {
-    
+// card
+#cards {
+
+    .container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
 }
 
-#banner .container .bannertext{
-    
-}
+// footer
+  .footer {
+    position: relative;
+    width: 100%;
+    background: #573b8a;
+    min-height: 100px;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
