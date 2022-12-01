@@ -1,0 +1,39 @@
+.hero{
+    background-color: #573b8a;
+    height: 125vh;
+    // background-image: url("");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+.textHero{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.textHero h1{
+    font-size: 100px;
+}
+
+.textHero h3{
+    font-size: 40px;
+}
+
+#banner {
+    background-color: #573b8a;
+}
+
+#banner .container {
+    
+}
+
+#banner .container .bannertext{
+    
+}
